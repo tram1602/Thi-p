@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thiệp mời tốt nghiệp – Bích Trâm</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Great+Vibes&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fffdf8;--ink:#1f2d5c;--gold:#a67c37;--line:#d9c49a;--card:#fff;--shadow:rgba(31,45,92,.12);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10162e;--ink:#e9ecf7;--gold:#d8b46a;--line:#4a4a5e;--card:#18204a;--shadow:rgba(0,0,0,.4)}}
+:root[data-theme="dark"]{--bg:#10162e;--ink:#e9ecf7;--gold:#d8b46a;--line:#4a4a5e;--card:#18204a;--shadow:rgba(0,0,0,.4)}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Times New Roman",Times,serif;line-height:1.7;overflow-x:hidden}
+.frame{position:relative;max-width:640px;margin:0 auto;padding:56px 28px 48px;text-align:center}
+.frame::before{content:"";position:absolute;inset:18px;border:1px solid var(--gold);pointer-events:none}
+.balloons{position:absolute;top:0;left:0;right:0;height:150px;pointer-events:none;overflow:hidden}
+.b{position:absolute;width:62px;height:76px;border-radius:50% 50% 48% 48%;background:radial-gradient(circle at 32% 28%,#fff6d6,#e4bf62 45%,#a67c37);box-shadow:0 6px 14px var(--shadow)}
+.b::after{content:"";position:absolute;left:50%;top:100%;width:1px;height:50px;background:var(--gold)}
+.b:nth-child(1){left:-12px;top:-20px;transform:rotate(-12deg)}
+.b:nth-child(2){left:34px;top:-44px;width:50px;height:62px;transform:rotate(6deg);opacity:.85}
+.b:nth-child(3){right:-8px;top:-26px;transform:rotate(10deg)}
+.b:nth-child(4){right:48px;top:-50px;width:46px;height:58px;transform:rotate(-6deg);opacity:.85}
+h1{margin:34px 0 0;font-family:"Great Vibes","Dancing Script",cursive;font-weight:400;font-size:clamp(3.8rem,17vw,6rem);line-height:1;color:var(--ink)}
+.sub{margin:0;font-family:"Playfair Display",Georgia,serif;font-weight:700;letter-spacing:.08em;font-size:clamp(1.9rem,8vw,2.8rem);color:var(--gold);line-height:1.2}
+.msg{font-family:"Dancing Script",cursive;font-weight:400;font-size:1.3rem;line-height:1.65;margin:30px auto 0;max-width:34em}
+.div{display:flex;align-items:center;gap:10px;margin:30px auto;max-width:360px}
+.div i{flex:1;height:1px;background:var(--line)}
+.div b{width:9px;height:9px;border:1px solid var(--gold);transform:rotate(45deg)}
+.lead{color:var(--gold);font-weight:700;font-size:1.25rem;margin:0}
+.guest{font-family:"Dancing Script",cursive;font-size:2.6rem;font-weight:700;margin:6px auto 0;max-width:340px;border-bottom:1px solid var(--line);line-height:1.3}
+.of{margin:26px 0 0;font-size:1.05rem}
+.name{font-weight:700;font-size:2rem;margin:0;line-height:1.3}
+.time{font-weight:700;font-size:2.1rem;margin:12px 0 0}
+.date{margin:18px auto 0;max-width:420px;padding:12px 16px;border:1px solid var(--gold);border-radius:6px 22px;font-weight:700;font-size:clamp(1.2rem,5.4vw,1.7rem);line-height:1.35}
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:400px;margin:26px auto 0}
+.cd div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 4px;box-shadow:0 4px 12px var(--shadow)}
+.cd strong{display:block;font-size:1.7rem;line-height:1.2;color:var(--gold)}
+.cd span{font-size:.8rem}
+.done{margin-top:26px;font-family:"Dancing Script",cursive;font-size:1.5rem;color:var(--gold)}
+.place{margin:34px auto 0;max-width:420px;text-align:left}
+.place p{margin:0 0 4px}
+.place .t{font-weight:700;color:var(--gold)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:26px}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;border:1.5px solid var(--gold);color:var(--ink);text-decoration:none;font-weight:700;font-size:.95rem;background:transparent;font-family:inherit;transition:background .2s,color .2s}
+.btn.main{background:var(--gold);color:#fff}
+.btn:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.thanks{margin:34px auto 0;font-size:1.05rem}
+.share{margin-top:18px;font-size:.85rem;opacity:.8}
+.share input{font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);width:150px}
+@media (prefers-reduced-motion:no-preference){h1{animation:in 1.1s ease both}@keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<main class="frame">
+  <div class="balloons" aria-hidden="true"><span class="b"></span><span class="b"></span><span class="b"></span><span class="b"></span></div>
+  <h1>Graduation</h1>
+  <p class="sub">CEREMONY</p>
+
+  <p class="msg">Khép lại những ngày tháng miệt mài gieo mầm ước mơ, cuối cùng chặng đường thanh xuân dưới mái trường của mình cũng trọn vẹn cập bến. Lễ tốt nghiệp tới đây không chỉ là vạch đích cho một hành trình, mà còn là dịp để mình gói gém lòng tri ân gửi đến những người luôn dịu dàng dõi theo và nâng đỡ mình. Ngày hôm đó sẽ trọn vẹn hơn rất nhiều nếu có mọi người ở bên. Hãy dành chút thời gian ghé chơi, chia sẻ niềm vui này và cùng mình chụp một tấm hình thật xinh nhé!</p>
+
+  <div class="div" aria-hidden="true"><i></i><b></b><i></i></div>
+
+  <p class="lead">THÂN MỜI:</p>
+  <p class="guest" id="guest">bạn</p>
+  <p class="of">ĐẾN DỰ LỄ TỐT NGHIỆP CỦA</p>
+  <p class="name">BÍCH TRÂM</p>
+  <p class="time">08:30 – 10:30</p>
+  <p class="date">THỨ SÁU, NGÀY 06/11/2026</p>
+
+  <div class="cd" id="cd" aria-live="off">
+    <div><strong id="d">--</strong><span>ngày</span></div>
+    <div><strong id="h">--</strong><span>giờ</span></div>
+    <div><strong id="m">--</strong><span>phút</span></div>
+    <div><strong id="s">--</strong><span>giây</span></div>
+  </div>
+  <p class="done" id="done" hidden>Hôm nay là ngày vui của Trâm – hẹn gặp mọi người!</p>
+
+  <div class="place">
+    <p class="t">ĐẠI HỌC CÔNG NGHỆ TP.HCM (Thu Duc Campus)</p>
+    <p>Phân khu Đào tạo E1, Khu Công nghệ cao,<br>Phường Tăng Nhơn Phú, TP.HCM.</p>
+    <p>Sđt/ Zalo: <a href="tel:0845722689" style="color:inherit">0845722689</a> (Bích Trâm).</p>
+  </div>
+
+  <div class="btns">
+    <a class="btn main" href="https://zalo.me/0845722689" target="_blank" rel="noopener">Nhắn Zalo xác nhận tham dự</a>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Đại+học+Công+nghệ+TP.HCM+Thu+Duc+Campus+Khu+Công+nghệ+cao" target="_blank" rel="noopener">Xem bản đồ</a>
+    <a class="btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=L%E1%BB%85+t%E1%BB%91t+nghi%E1%BB%87p+B%C3%ADch+Tr%C3%A2m&dates=20261106T013000Z/20261106T033000Z&location=%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%C3%B4ng+ngh%E1%BB%87+TP.HCM+(Thu+Duc+Campus)" target="_blank" rel="noopener">Thêm vào lịch</a>
+  </div>
+
+  <div class="div" aria-hidden="true"><i></i><b></b><i></i></div>
+  <p class="thanks">Mọi sự hiện diện đều là món quà vô giá với mình.<br>Hẹn gặp mọi người hôm đó nha!</p>
+
+  <p class="share">Gửi thiệp riêng cho từng người: nhập tên rồi sao chép liên kết<br>
+    <input id="nm" placeholder="Tên khách mời" aria-label="Tên khách mời">
+    <button class="btn" id="cp" type="button" style="padding:8px 16px">Sao chép link</button><br><span id="out" style="word-break:break-all;font-size:.8rem"></span>
+  </p>
+</main>
+<script>
+(function(){
+  var g=document.getElementById('guest');
+  try{var p=new URLSearchParams(location.search).get('ten');if(p){g.textContent=p.slice(0,40);}}catch(e){}
+  var target=new Date('2026-11-06T08:30:00+07:00').getTime();
+  function z(n){return n<10?'0'+n:''+n}
+  function tick(){
+    var t=target-Date.now();
+    if(t<=0){document.getElementById('cd').hidden=true;document.getElementById('done').hidden=false;return}
+    document.getElementById('d').textContent=Math.floor(t/864e5);
+    document.getElementById('h').textContent=z(Math.floor(t%864e5/36e5));
+    document.getElementById('m').textContent=z(Math.floor(t%36e5/6e4));
+    document.getElementById('s').textContent=z(Math.floor(t%6e4/1e3));
+  }
+  tick();setInterval(tick,1000);
+  var nm=document.getElementById('nm'),cp=document.getElementById('cp');
+  nm.addEventListener('input',function(){if(nm.value.trim())g.textContent=nm.value.trim().slice(0,40)});
+  cp.addEventListener('click',function(){
+    var u=location.origin+location.pathname+(nm.value.trim()?'?ten='+encodeURIComponent(nm.value.trim()):'');
+    document.getElementById('out').textContent=u;
+    try{navigator.clipboard.writeText(u).then(function(){cp.textContent='Đã sao chép'},function(){cp.textContent='Hãy sao chép link bên dưới'})}catch(e){cp.textContent='Hãy sao chép link bên dưới'}
+  });
+})();
+</script>
+</body>
+</html>
